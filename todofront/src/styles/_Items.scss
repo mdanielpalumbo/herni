@@ -1,0 +1,84 @@
+.itemsCont{
+    height:100vh;
+    width:85vw;
+    background-color:#242424;
+    .itTitle{
+        font-size: 2rem;
+        margin-left:2%;
+        margin-top:1.8%;
+        margin-bottom:5%;
+    }
+    .task{
+        border-radius: 8px;
+        color:#f7f7f7;
+        width:35%;
+        margin: 1% 4% 2% 10%;
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        height:4%;
+        align-items: center;
+        font-size: 1.2rem;
+        padding-left:2%;
+        padding-right:0.5%;
+        .taskBtns{
+            height:80%;
+            width:35%;
+            display:flex;
+            flex-flow:row;
+            justify-content: space-evenly;
+            button{
+                height:100%;
+                width:20%;
+                text-align:center;
+                .taskBtn{
+                    height:100%;
+                    width:15px;
+                }
+                .check{
+                    color:green;
+                }
+                .edit{
+                    color:blue;
+                }
+                .delete{
+                    color:red;
+                }
+            }   
+        }   
+    }
+    .completed{
+        text-decoration: line-through;
+        background-color: #121212;
+        opacity: 70%;
+    }
+    .noCompleted{
+        background-color: #181818;
+    }
+    
+    .itInpCont{
+        margin: 5% 4% 6% 20%;
+        height:20%;
+        width:40%;
+        .itInp{
+            height:15%;
+            background-color: #181818;
+            border:none;
+            color: #f7f7f7;
+            margin-right:2%;
+            border-radius: 12px;
+            padding:2%;
+        }
+        .itAdd{
+            height:14%;
+            width:10%;
+            border: none;
+            border-radius: 12px;
+            background-color: #121212;
+            color: #f7f7f7;
+        }
+
+    }
+}
+
+

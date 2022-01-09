@@ -1,0 +1,45 @@
+.foldersCont{
+    height:100vh;
+    width:15vw;
+    display:flex;
+    flex-flow: column nowrap;
+    .folTitle{
+        font-size:2rem;
+        width:100%;
+        text-align:center;
+        margin-top:10%;
+    }
+    .folList{
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top:20%;
+        .folder{
+            display:flex;
+            flex-flow:row nowrap;
+            width:100%;
+            .folBtn{
+                margin: 5% 2% 5% 2%;
+                width:48%;
+                height:50%;
+                border-radius:8px;
+                background-color:#242424;
+                border:none;
+                cursor:pointer;
+                color: #f8f8f8;
+                text-align:center;
+                font-size:1rem;
+            }
+        }
+
+    }
+    .folInp{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:10%;
+    }
+    
+}
